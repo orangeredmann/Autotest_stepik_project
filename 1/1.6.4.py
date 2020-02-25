@@ -17,7 +17,7 @@ try:
     phone = browser.find_element_by_xpath("//input[@placeholder='Input your phone']")
     phone.send_keys('949248184284')
     address = browser.find_element_by_xpath("//input[@placeholder='Input your address']")
-    address.send_keys('3 fd 2wwss')
+    address.send_keys('test_3 fd 2wwss')
     '''
 
     # Отправляем заполненную форму
